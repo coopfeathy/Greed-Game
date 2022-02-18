@@ -1,7 +1,3 @@
-"""
-We need to change this code to display the Gems and Stones
-"""
-
 from game.shared.color import Color
 from game.shared.point import Point
 
