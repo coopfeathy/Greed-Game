@@ -1,3 +1,7 @@
+"""
+Change this into Gems and Stones may need to incorporate point system here (comment made: 2/17/2022)
+"""
+
 from game.casting.actor import Actor
 
 
