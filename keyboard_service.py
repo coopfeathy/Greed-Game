@@ -1,3 +1,7 @@
+"""
+No Need to touch this as it will function to players movement (comment made: 2/17/2022)
+"""
+
 import pyray
 from game.shared.point import Point
 
