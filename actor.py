@@ -1,3 +1,7 @@
+"""
+This File should be good to go, no need for edits as of yet 2/17/2022
+"""
+
 from game.shared.color import Color
 from game.shared.point import Point
 
