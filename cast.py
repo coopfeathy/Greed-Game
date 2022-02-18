@@ -1,3 +1,7 @@
+"""
+Clean up code to just remove the Actors when they are touched by the Player (comment made: 2/17/2022
+"""
+
 class Cast:
     """A collection of actors.
 
