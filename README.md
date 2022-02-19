@@ -11,7 +11,7 @@ Njato:
 
 
 Homework Assignment:
-Ryan: Gems and Stones (Actors.py)
+Ryan: Gems and Stones & Starting location for player (Actors.py)
 Cooper: Removing items when touched (Cast.py)
 Njato: Apply falling affect to the Gems and Stones (Artifacts.py or updated Point System file)
 Innocent: Set up Score Count for when Gems and Stones are touched (Update Artifacts file to Point System)
