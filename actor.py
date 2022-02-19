@@ -59,7 +59,9 @@ class Actor:
             string: The actor's textual representation.
         """
         return self._text
-
+"""
+Update get_velocity to not allow players to move up or down.
+"""
     def get_velocity(self):
         """Gets the actor's speed and direction.
         
