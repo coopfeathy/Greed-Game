@@ -1,6 +1,3 @@
-"""
-Set up the code to have the Gems and Stones falling from top to bottom.
-"""
 
 class Point:
     """A distance from a relative origin (0, 0).
