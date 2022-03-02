@@ -6,7 +6,7 @@ Contributors: Cooper Featherstone, Ryan Alvord, Innocent Hove, Njato Harizo R.
 
 Cooper: Attended the fisrt meeting and prepared the code for the group
 Ryan: Attended the fisrt meeting and prepared the code for the group
-Innocent:
+Innocent:Attended the second meeting and set up score count for touching gems and stones
 Njato:
 
 
