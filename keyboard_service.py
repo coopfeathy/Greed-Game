@@ -3,7 +3,7 @@ No Need to touch this as it will function to players movement (comment made: 2/1
 """
 
 import pyray
-from game.shared.point import Point
+from point import Point
 
 
 class KeyboardService:
@@ -34,15 +34,15 @@ class KeyboardService:
         dy = 0
 
         
-"""
-May need to remove Up and Down key options. Double chekcing with Professor
-"""
+        """
+        May need to remove Up and Down key options. Double chekcing with Professor
+        """
         if pyray.is_key_down(pyray.KEY_LEFT):
             dx = -1
         
         if pyray.is_key_down(pyray.KEY_RIGHT):
             dx = 1
- """       
+        """       
         if pyray.is_key_down(pyray.KEY_UP):
             dy = -1
         

@@ -2,7 +2,7 @@
 Change entire file to point system
 """
 
-from game.casting.actor import Actor
+from actor import Actor
 
 
 class Artifact(Actor):

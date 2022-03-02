@@ -2,8 +2,8 @@
 This File should be good to go, no need for edits as of yet 2/17/2022
 """
 
-from game.shared.color import Color
-from game.shared.point import Point
+from color import Color
+from point import Point
 
 
 class Actor:
@@ -59,9 +59,9 @@ class Actor:
             string: The actor's textual representation.
         """
         return self._text
-"""
-Update get_velocity to not allow players to move up or down.
-"""
+    """
+    Update get_velocity to not allow players to move up or down.
+    """
     def get_velocity(self):
         """Gets the actor's speed and direction.
         
