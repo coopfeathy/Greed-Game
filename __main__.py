@@ -1,4 +1,5 @@
 import os
+import turtle
 import random
 
 from actor import Actor
@@ -27,11 +28,17 @@ WHITE = Color(255, 255, 255)
 GREEN = Color(255, 233, 0)
 BLUE = Color(0, 191, 191)
 ORANGE = Color(255, 98, 15)
-DEFAULT_ARTIFACTS = 40
+DEFAULT_ARTIFACTS = 20
+
+window = turtle.Screen()
+window.title("Greed: Gems and Stones")
+window.bgcolor("black")
+window.setup(width=800, height=600)
+window.tracer(2)
 
 
 def main():
-    
+    window.update()
     # create the cast
     cast = Cast()
     
@@ -56,6 +63,8 @@ def main():
     cast.add_actor("robots", robot)
 
     # create the gem
+    
+    gems = []
     for n in range(DEFAULT_ARTIFACTS):
         x = random.randint(1, COLS - 1)
         y = random.randint(1, ROWS - 1)
@@ -74,8 +83,18 @@ def main():
         artifact.set_position(position)
         # artifact.set_message(message)
         cast.add_actor("artifacts", artifact)
+        gem = turtle.Turtle()
+        gem.speed = random.randint(2, 6)
+        gems.append(artifact)
+        while True:
+            for artifact in gems:
+                y = artifact.get_position()
+                y -= MAX_Y
+                artifact.set_position(y)
+
     
     # create the stone
+
     for n in range(DEFAULT_ARTIFACTS):
         x = random.randint(1, COLS - 1)
         y = random.randint(1, ROWS - 1)
@@ -121,6 +140,10 @@ def main():
     #     artifact.set_position(position)
     #     artifact.set_message(message)
     #     cast.add_actor("artifacts", artifact)
+
+    # for _ in gems:
+    
+
     
     # start the game
     keyboard_service = KeyboardService(CELL_SIZE)
